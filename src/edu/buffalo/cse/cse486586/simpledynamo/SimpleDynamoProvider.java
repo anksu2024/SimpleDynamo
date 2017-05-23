@@ -1,27 +1,21 @@
 /**
- * NAME				: ANKIT SARRAF
- * EMAIL			: sarrafan@buffalo.edu
- * PROJECT			: IMPLEMENTING SIMPLE DYNAMO
- * ASSUMPTIONS		: 1) NO KEY VALUE PAIR HAS A COLON (:) OR PIPE (|) IN IT
- * 					  2) IN THE BEGINNING ALL THE 5 AVDs WILL START
- * 					  3) AT MOST 1 NODE CAN FAIL AT A TIME
- * 					  4) ALL THE NODE FAILURES ARE TEMPORARY
- * IMPLEMENTATION	: 1) MEMBERSHIP
- * 					  2) REQUEST ROUTING
- * 					  3) QUORUM REPLICATION
- * 					  4) CHAIN REPLICATION
- * 					  5) FAILURE HANDLING
- * RESOURCES		: 1) http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
- * 					  2) Lecture slides on Amazon Dynamo, Prof. Steve Ko (SUNY Buffalo)
- * 					  3) SimpleDht Implementation by Ankit Sarraf (sarrafan@buffalo.edu)
- * COPYRIGHT		: THIS IS MY ORIGINAL PIECE OF ART, BETTER KNOWN AS CODING.
- * 					  I RESERVE THE COPYRIGHTS TO THE USAGE OF THIS CODE FOR
- * 					  ANY ACADEMIC AND/OR PROFESSIONAL PURPOSES. 
- * 					  I BELIEVE IN CONSTRUCTIVE USAGE OF KNOWLEDGE.
- * 					  SO EVERYONE HAS THE RIGHT TO USE THIS CODE.
- * 					  BUT I BELIEVE DUE RESPECT HAS TO BE GIVEN TO MY CODE.
- * 					  IF AT ALL IT IS USED, PLEASE THE FOLLOWING SOURCE:
- * 					  SOURCE: "SimpleDynamo Implementation by Ankit Sarraf (sarrafan@buffalo.edu)"
+ * NAME	                : ANKIT SARRAF
+ * EMAIL                : sarrafan@buffalo.edu
+ * PROJECT              : IMPLEMENTING SIMPLE DYNAMO
+ * ASSUMPTIONS          : 1) NO KEY VALUE PAIR HAS A COLON (:) OR PIPE (|) IN IT
+ *                        2) IN THE BEGINNING ALL THE 5 AVDs WILL START
+ *                        3) AT MOST 1 NODE CAN FAIL AT A TIME
+ *                        4) ALL THE NODE FAILURES ARE TEMPORARY
+ * IMPLEMENTATION       : 1) MEMBERSHIP
+ *                        2) REQUEST ROUTING
+ *                        3) QUORUM REPLICATION
+ *                        4) CHAIN REPLICATION
+ *                        5) FAILURE HANDLING
+ * RESOURCES            : 1) http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+ *                        2) Lecture slides on Amazon Dynamo, Prof. Steve Ko (SUNY Buffalo)
+ *                        3) SimpleDht Implementation by Ankit Sarraf (sarrafan@buffalo.edu)
+ * DECLARATION          : THIS IS MY ORIGINAL PIECE OF WORK. 
+ *                        EVERYONE HAS THE RIGHT TO USE THIS CODE.
  */
 
 package edu.buffalo.cse.cse486586.simpledynamo;
